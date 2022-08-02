@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Square+Peg&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+span{
+    color: red;
+}
+
+header{
+    background-image: url(/assets/game\ logo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    /* position: fixed; */
+}
+.nav-logo{
+    font-family: "square peg";
+    font-size: 35px;
+    text-align: left;
+}
+.nav-logo a{
+    color: white;
+    text-align: left;
+    font-size: larger;
+    letter-spacing: 1.5;
+}
+.nav-list ul{
+    display: flex;
+}
+.nav-list ul li{
+    list-style: none;
+    margin: 20px;
+    line-height: 20px;
+}
+.nav-list ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+}
+.nav-list ul li a:hover{
+    text-decoration: underline white;
+    color: red;
+    font-size: 30px;
+}
+.header-text{
+    color: white;
+    width: 30%;
+    justify-content: center;
+    margin-top: 250px;
+    padding-left: 10px;
+}
+.header-text h1{
+    color: slateblue;
+    font-size: 40px;
+    letter-spacing: 6px;
+}
+.header-text p{
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-top: 20px;
+    letter-spacing: 1.2;
+}
+.download-links{
+    display: flex;
+    margin: 10px;
+    margin-top: -5px;
+}
+.istore{
+    margin-left: 20px;
+}
+.feature-games{
+    height: 70px;
+    background-color: slateblue;
+    text-align: center;
+    padding: 10px;
+}
+.feature-games a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+    padding: 10px;
+}
+.gameplay-video{
+    background-image: url(/assets/glogo3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.918);
+}
+.video-text{
+    text-align: center;
+   padding: 20px;
+   color: red;
+}
+.video-video h1{
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    letter-spacing: 2;
+    line-height: 10px;
+}
+.video-video h4{
+    text-align: center;
+    padding: 20px 100px;
+    color: wheat;
+    font-size: 20px;
+}
+.game-reviews{
+    height: 60vh;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: black;
+}
+.game-reviews h3{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 24px;
+}
+.game-reviews a{
+    text-decoration: none;
+    color: white;
+}
